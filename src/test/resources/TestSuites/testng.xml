@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" thread-count="5" parallel="classes" verbose="1">
+    <listeners>
+        <listener class-name="api.utilities.ExtentListenerClass"></listener>
+    </listeners>
+    <test name="RESTFul Booker APIs Automation Tests">
+        <classes>
+            <class name="api.testcases.APITest" />
+        </classes>
+    </test>
+
+</suite>
