@@ -1,5 +1,8 @@
 package api.endpoints;
 
+
+
+//All Routes Defined
 public class Routes {
 
     public static String base_url = "https://restful-booker.herokuapp.com";
