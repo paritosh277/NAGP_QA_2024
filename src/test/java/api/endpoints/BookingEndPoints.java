@@ -65,6 +65,8 @@ public class BookingEndPoints {
 
     }
 
+
+    //delete booking
     public static Response deleteBooking(int id, String authToken){
         Response response = given()
                 .contentType(ContentType.JSON)
